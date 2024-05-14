@@ -15,7 +15,7 @@ export const Start: FC = () => {
 
   const handleStart = (value: boolean) => {
     setStarted(value)
-    navigate(RoutesEnum.root)
+    navigate(RoutesEnum.content)
   }
 
   useEffect(() => {
