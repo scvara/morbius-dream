@@ -7,8 +7,8 @@ export const Routers = () => {
   return (
     <Routes>
       <Route element={<Layout />}>
-        <Route path={RoutesEnum.root} index element={<Content />} />
-        <Route path={RoutesEnum.start} index element={<Start />} />
+        <Route path={RoutesEnum.content} index element={<Content />} />
+        <Route path={RoutesEnum.root} index element={<Start />} />
       </Route>
       <Route path="*" element={<>404</>} />
     </Routes>
