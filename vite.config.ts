@@ -14,4 +14,11 @@ export default defineConfig({
       '@pages': resolve(__dirname, './src/pages'),
     },
   },
+    build: {
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'index.html'),
+      },
+    },
+  },
 })
